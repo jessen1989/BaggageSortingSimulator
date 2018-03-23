@@ -5,9 +5,101 @@
     xmlns:local="using:BaggageSortingSimulator"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:VM ="using:BaggageSortingSimulator.ViewModel"
     mc:Ignorable="d">
 
+    <Page.DataContext>
+        <VM:ViewModel/>
+    </Page.DataContext>
+
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image Source="Assets/counter.png" HorizontalAlignment="Left" Height="100" Margin="230,200,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Source="Assets/counter.png" HorizontalAlignment="Left" Height="100" Margin="230,350,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Source="Assets/counter.png" HorizontalAlignment="Left" Height="100" Margin="230,500,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Source="Assets/counter.png" HorizontalAlignment="Left" Height="100" Margin="230,650,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Source="Assets/counter.png" HorizontalAlignment="Left" Height="100" Margin="230,800,0,0" VerticalAlignment="Top" Width="100"/>
+
+        <Rectangle HorizontalAlignment="Left" Height="862" Margin="366,75,0,0" VerticalAlignment="Top" Width="60" Fill="Red"/>
+        <Rectangle HorizontalAlignment="Left" Height="60" Margin="424.5,76.5,0,0" VerticalAlignment="Top" Width="304" Fill="Red" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Rectangle.RenderTransform>
+                <CompositeTransform Rotation="0.375"/>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="154" Margin="669,135,0,0" VerticalAlignment="Top" Width="60" Fill="Red"/>
+        <Rectangle HorizontalAlignment="Left" Height="270" Margin="965,121,0,0" VerticalAlignment="Top" Width="40" Fill="Red" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Rectangle.RenderTransform>
+                <CompositeTransform Rotation="68.132"/>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="270" Margin="979,202,0,0" VerticalAlignment="Top" Width="40" Fill="Red" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Rectangle.RenderTransform>
+                <CompositeTransform Rotation="74.055"/>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="270" Margin="981,305,0,0" VerticalAlignment="Top" Width="40" Fill="Red" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Rectangle.RenderTransform>
+                <CompositeTransform Rotation="83.986"/>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="270" Margin="975,389,0,0" VerticalAlignment="Top" Width="40" Fill="Red" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Rectangle.RenderTransform>
+                <CompositeTransform Rotation="90.201"/>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="270" Margin="972,542,0,0" VerticalAlignment="Top" Width="40" Fill="Red" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Rectangle.RenderTransform>
+                <CompositeTransform Rotation="99.935"/>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="270" Margin="981,464,0,0" VerticalAlignment="Top" Width="40" Fill="Red" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Rectangle.RenderTransform>
+                <CompositeTransform Rotation="97.323"/>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="160" Margin="695,684,0,0" VerticalAlignment="Top" Width="60" Fill="Red"/>
+        <Rectangle HorizontalAlignment="Left" Height="414" Margin="578,273,0,0" VerticalAlignment="Top" Width="300" Fill="Black"/>
+        <Image Source="Assets/baggagetransport.png" HorizontalAlignment="Left" Height="100" Margin="1114,143,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Source="Assets/baggagetransport.png" HorizontalAlignment="Left" Height="100" Margin="1135,241,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Source="Assets/baggagetransport.png" HorizontalAlignment="Left" Height="100" Margin="1141,371,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Source="Assets/baggagetransport.png" HorizontalAlignment="Left" Height="100" Margin="1134,467,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Source="Assets/baggagetransport.png" HorizontalAlignment="Left" Height="100" Margin="1138,563,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Source="Assets/baggagetransport.png" HorizontalAlignment="Left" Height="100" Margin="1128,655,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Source="Assets/airplane.png" HorizontalAlignment="Left" Height="100" Margin="1358,126,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Source="Assets/airplane.png" HorizontalAlignment="Left" Height="100" Margin="1355,249,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Source="Assets/airplane.png" HorizontalAlignment="Left" Height="100" Margin="1361,361,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Source="Assets/airplane.png" HorizontalAlignment="Left" Height="100" Margin="1360,469,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Source="Assets/airplane.png" HorizontalAlignment="Left" Height="100" Margin="1358,574,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Source="Assets/airplane.png" HorizontalAlignment="Left" Height="100" Margin="1352,680,0,0" VerticalAlignment="Top" Width="100"/>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="622,838,0,0" VerticalAlignment="Top" Width="219" Fill="Black"/>
+        <Rectangle HorizontalAlignment="Left" Height="29" Margin="236,300,0,0" VerticalAlignment="Top" Width="189" Fill="Red" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Rectangle.RenderTransform>
+                <CompositeTransform Rotation="0.375"/>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="29" Margin="232,468,0,0" VerticalAlignment="Top" Width="189" Fill="Red" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Rectangle.RenderTransform>
+                <CompositeTransform Rotation="0.375"/>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="29" Margin="230,608,0,0" VerticalAlignment="Top" Width="189" Fill="Red" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Rectangle.RenderTransform>
+                <CompositeTransform Rotation="0.375"/>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="29" Margin="225,762,0,0" VerticalAlignment="Top" Width="189" Fill="Red" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Rectangle.RenderTransform>
+                <CompositeTransform Rotation="0.375"/>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+
+        <Image Source="Assets/luggage1.png" HorizontalAlignment="Left" Height="50" Width="50" Margin="254,587,0,363"/>
+        <Rectangle HorizontalAlignment="Left" Height="29" Margin="220,908,0,0" VerticalAlignment="Top" Width="189" Fill="Red" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Rectangle.RenderTransform>
+                <CompositeTransform Rotation="0.375"/>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <TextBlock Text="{Binding Trucks[1], Mode=OneWay}" HorizontalAlignment="Left" Margin="86,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock Text="{Binding Trucks[2], Mode=OneWay}"  HorizontalAlignment="Left" Margin="88,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>
