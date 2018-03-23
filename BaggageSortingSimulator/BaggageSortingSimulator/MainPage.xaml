@@ -100,8 +100,6 @@
                 <CompositeTransform Rotation="0.375"/>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <TextBlock Text="{Binding Trucks[1], Mode=OneWay}" HorizontalAlignment="Left" Margin="86,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBlock Text="{Binding Trucks[2], Mode=OneWay}"  HorizontalAlignment="Left" Margin="88,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>

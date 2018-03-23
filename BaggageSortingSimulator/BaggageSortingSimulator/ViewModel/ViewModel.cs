@@ -1,5 +1,4 @@
-﻿using BaggageSortingSimulator.Model;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,6 +8,8 @@ namespace BaggageSortingSimulator.ViewModel
 {
     public class ViewModel : ViewModelBase
     {
+<<<<<<< HEAD:BaggageSortingSimulator/BaggageSortingSimulator/BaggageSortingSimulator/ViewModel/ViewModel.cs
+<<<<<<< HEAD:BaggageSortingSimulator/BaggageSortingSimulator/BaggageSortingSimulator/ViewModel/ViewModel.cs
         private int[] trucks = new int[9];
         public ViewModel()
         {
@@ -62,6 +63,14 @@ namespace BaggageSortingSimulator.ViewModel
                 default:
                     break;
             }
+=======
+        public ViewModel()
+        {
+>>>>>>> parent of 51b78d7... fg:BaggageSortingSimulator/ViewModel/ViewModel.cs
+=======
+        public ViewModel()
+        {
+>>>>>>> parent of 51b78d7... fg:BaggageSortingSimulator/ViewModel/ViewModel.cs
         }
     }
 }
